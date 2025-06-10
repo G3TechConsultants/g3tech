@@ -875,7 +875,7 @@
 				background: #f2f2f2;
 			}
 
-			span.qodef-m-text {
+			.qodef-e-read-more span.qodef-m-text {
 				background: #b6b6b6;
 			}
 
@@ -3040,7 +3040,17 @@
     height: 600px; /* test value */
 }
 
-	</style> 
+	</style> <style> 
+	@media only screen and (max-width: 4000px) and (min-width: 1024px) {	
+	.qodef-grid.qodef-layout--columns.qodef-col-num--4>.qodef-grid-inner>.qodef-grid-item  {     width: 33%; }
+	}
+	 @media only screen and (max-width: 1024px) and (min-width: 760px) {	
+	.qodef-grid.qodef-layout--columns.qodef-col-num--4>.qodef-grid-inner>.qodef-grid-item  {     width: 50%; }
+	}
+  @media only screen and (max-width: 760px) and (min-width: 100px) {	
+	.qodef-grid.qodef-layout--columns.qodef-col-num--4>.qodef-grid-inner>.qodef-grid-item  {     width: 100%; }
+	}
+	</style>
 </body>
 
 </html>
