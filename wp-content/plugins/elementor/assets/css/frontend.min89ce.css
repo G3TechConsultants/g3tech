@@ -12,6 +12,5 @@
   header .item .cover .header-content h4 {font-size: 17px !important; } 
 header .item .cover .header-content h1 {     font-size: 37px !important;   } 
   .no-js .owl-carousel, .owl-carousel.owl-loaded,.owl-carousel .owl-stage-outer {      height: 400px !important;}
-   header .item .cover .header-content {     position: absolute;    top: 84px;    padding: 32px;    overflow: hidden;    margin-left: 39px;}
-	
+    header .item .cover .header-content {     position: absolute !important;    top: 84px !important;    padding: 32px !important;    overflow: hidden;    margin-left: 39px;}
 	} 
